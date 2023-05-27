@@ -83,7 +83,7 @@ export default async function Home() {
         </h2>
       </div>
 
-      {/* <footer className="text-sm mt-12 opacity-25">
+      {/* <footer className="text-xs mt-12 opacity-5">
         Built by
         <Link href="https://twitter.com/eihab_khan"> @eihab_khan</Link>
       </footer> */}
