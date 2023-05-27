@@ -1,12 +1,5 @@
-import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-
-export const metadata: Metadata = {
-  title: "It's Shad-CN",
-  description:
-    "This is a fan page to clarify the confusion arround @shadcn's name, a lot of people think his name is shad-CDN as in Content Delivery Network when in fact his actual name is Shad-CN (without the D)",
-}
 
 const getTwitterProfileImage = async () => {
   const url = 'https://twttrapi.p.rapidapi.com/get-user?username=shadcn'
