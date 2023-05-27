@@ -36,7 +36,7 @@ export default async function Home() {
   }
 
   return (
-    <main className="flex min-h-screen max-w-screen-xl mx-auto flex-col items-center justify-center p-4 md:p-24 gap-4 ">
+    <main className="flex min-h-screen max-w-screen-xl mx-auto flex-col items-center justify-center p-4 gap-4 ">
       <div className="flex justify-center items-center mb-10 gap-4">
         {imageUrl && (
           <Image
@@ -82,6 +82,11 @@ export default async function Home() {
           </p>
         </h2>
       </div>
+
+      {/* <footer className="text-sm mt-12 opacity-25">
+        Built by
+        <Link href="https://twitter.com/eihab_khan"> @eihab_khan</Link>
+      </footer> */}
     </main>
   )
 }
